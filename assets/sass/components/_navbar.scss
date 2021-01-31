@@ -1,0 +1,25 @@
+.navbar__bg-navbar {
+    background-color: $eerie-black;
+    height: 90px;
+}
+
+.navbar__img {
+    width: 79px;
+    height: 46px;
+}
+
+.navbar__link {
+    color: $white;
+    font-weight: $regular;
+
+    &--active {
+
+        color: #DE8684 !important;
+
+    }
+
+}
+
+.navbar__button {
+    background-color: $white;
+}

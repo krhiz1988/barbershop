@@ -1,0 +1,12 @@
+h1 {
+    font-weight: $black-italic;
+    font-style: italic;
+    font-size: $xx-large;
+    color: $white;
+}
+
+@media only screen and (max-width: 576px) {
+    h1 {
+        font-size: 58px;
+    }
+}

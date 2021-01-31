@@ -1,0 +1,58 @@
+.section-text {
+
+    &__fecha {
+        font-size: $large;
+        font-weight: $regular;
+        margin-bottom: 50px;
+        color: $raisin-black;
+    }
+
+    &__parrafos {
+        font-size: $medium;
+        font-weight: $regular;
+        color: $raisin-black;
+
+        &--emphasis {
+            color: $ruddy-pink;
+        }
+
+    }
+
+}
+
+.usuarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__block {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__block-text {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+    }
+
+    &__nombre {
+        font-weight: $black-italic;
+        font-size: $xl-large;
+        font-style: italic;
+    }
+
+    &__redes {
+        font-weight: $regular;
+        font-size: $large;
+        color: $ruddy-pink;
+
+    }
+}

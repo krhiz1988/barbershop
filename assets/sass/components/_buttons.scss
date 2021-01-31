@@ -1,0 +1,25 @@
+.botones-sociales {
+    &__compartir {
+        background-color: $eerie-black;
+        color: $white;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: $nickel;
+            color: $white;
+        }
+    }
+
+    &__twitter {
+        background-color: $nickel;
+        color: $white;
+        border-radius: 20px;
+    }
+
+    &__comentario {
+        font-size: $medium;
+        font-weight: $regular;
+        color: #707070;
+    }
+
+}
